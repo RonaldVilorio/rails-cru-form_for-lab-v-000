@@ -55,5 +55,9 @@ Rails.application.routes.draw do
   #   end
   resources :artists, only: [:create,:update,:show,:new,:edit]
   resources :genres, only: [:create,:update,:show,:new,:edit]
+<<<<<<< HEAD
   resources :songs, only: [:create,:update,:show,:new,:edit,:index]
+=======
+  resources :songs, only: [:create,:update,:show,:new,:edit]
+>>>>>>> 60ebfbe33db0db9924eff31d1e95c0bca199be38
 end
